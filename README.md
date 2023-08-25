@@ -1,6 +1,6 @@
 # express
 
-Para baixar este projeto e executar execute os seguintes passos a seguir
+Para baixar este projeto e iniciá-lo, execute os seguintes passos a seguir
 1.  Instale o git em seu computador https://git-scm.com/downloads 
 2.  Crie uma pasta e abra o terminal nesta pasta
 3.  Dê o seguinte comando no terminal git clone https://github.com/BrunoRafael7/express
