@@ -12,7 +12,7 @@ const teacherController = require('../controllers/teacherController')
 //A URL do recurso e o método HTTP que você passar como parâmetro na requisição
 //no lado do cliente na hora que for chamar o servidor, definem qual método será executado aqui
 teacherRouter.route('/api/teachers')
-.get((req, res) => teacherController.getTeacher(req, res))
+.get((req, res) => teacherController.getTeachers(req, res))
 .post((req, res) => teacherController.createTeacher(req, res))
 .put((req, res) => teacherController.updateTeacher(req, res))
 

@@ -19,3 +19,4 @@ const teacherSchema = new Schema({
 /*O primeiro parametro será o nome da coleção no banco. A coleção é como se fosse a tabela nem bancos de dados SQL
 O segundo será o Schema pra criar essa coleção. E o schema nada mais é do que o que você criou anteriormente */
 module.exports = mongoose.model("TeacherModel", teacherSchema)
+
